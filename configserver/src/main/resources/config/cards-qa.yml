@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+cards:
+  message: "Cards service International Bank related QA API"
+  contactDetails:
+    name: "Bin - QA Lead"
+    email: "bin007@gmail.com"
+  onCallSupport:
+    - 3121321323
+    - 5653634665

@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Cards service International Bank related Production API"
+  contactDetails:
+    name: "Andreas - Product Owner"
+    email: "andreas@gmail.com"
+  onCallSupport:
+    - 3134443245
+    - 9698976986

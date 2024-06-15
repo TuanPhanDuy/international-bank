@@ -1,0 +1,37 @@
+services:
+  accounts:
+    image: "tuanbin007/accounts:s4"
+    container_name: "accounts-ms"
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - tuanbin007
+  loans:
+    image: "tuanbin007/loans:s4"
+    container_name: "loans-ms"
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - tuanbin007
+  cards:
+    image: "tuanbin007/cards:s4"
+    container_name: "cards-ms"
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - tuanbin007
+networks:
+  tuanbin007:
+    driver: "bridge"

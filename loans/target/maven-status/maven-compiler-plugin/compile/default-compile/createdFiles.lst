@@ -1,0 +1,17 @@
+com\internationalbank\loans\LoansApplication.class
+com\internationalbank\loans\dto\ErrorResponseDto.class
+com\internationalbank\loans\exception\ResourceNotFoundException.class
+com\internationalbank\loans\exception\GlobalExceptionHandler.class
+com\internationalbank\loans\dto\LoansContactInfoDto.class
+com\internationalbank\loans\controller\LoansController.class
+com\internationalbank\loans\exception\LoanAlreadyExistsException.class
+com\internationalbank\loans\mapper\LoansMapper.class
+com\internationalbank\loans\dto\ResponseDto.class
+com\internationalbank\loans\entity\BaseEntity.class
+com\internationalbank\loans\service\impl\LoansServiceImpl.class
+com\internationalbank\loans\audit\AuditAwareImpl.class
+com\internationalbank\loans\constants\LoansConstants.class
+com\internationalbank\loans\entity\Loans.class
+com\internationalbank\loans\repository\LoansRepository.class
+com\internationalbank\loans\dto\LoansDto.class
+com\internationalbank\loans\service\ILoansService.class

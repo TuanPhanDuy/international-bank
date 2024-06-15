@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+loans:
+  message: "Loans service International Bank related Development API"
+  contactDetails:
+    name: "Tuan Bin - Developer"
+    email: "tuanbin007@gmail.com"
+  onCallSupport:
+    - 0819758697
+    - 3847893474
