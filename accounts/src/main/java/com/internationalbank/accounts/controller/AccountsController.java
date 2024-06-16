@@ -34,6 +34,10 @@ public class AccountsController {
 
     private IAccountService iAccountService;
 
+    public AccountsController(IAccountService iAccountService) {
+        this.iAccountService = iAccountService;
+    }
+
     @Value("${build.version}")
     private String buildVersion;
 
@@ -43,9 +47,7 @@ public class AccountsController {
     @Autowired
     private AccountsContactInfoDto accountsContactInfoDto;
 
-    public AccountsController(IAccountService iAccountService) {
-        this.iAccountService = iAccountService;
-    }
+
 
     @Operation(
             summary = "Create Account REST API",
