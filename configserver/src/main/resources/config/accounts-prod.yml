@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Accounts service International Bank related Production API"
+  message: "Accounts service International Bank related Production webhooks API"
   contactDetails:
     name: "Andreas - Product Owner"
     email: "andreas@gmail.com"

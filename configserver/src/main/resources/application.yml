@@ -2,18 +2,14 @@ spring:
   application:
     name: "configserver"
   profiles:
-    #active: native
     active: git
   cloud:
     config:
       server:
-#        native:
-#          search-locations: "classpath:/config"
         git:
           uri: "https://github.com/TuanPhanDuy/international-bank.git"
-#          username: tuanbin007@gmail.com
-#          password: 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
-#          skipSslValidation: true
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
           default-label: main
           timeout: 5
           clone-on-start: true
@@ -31,7 +27,6 @@ management:
         include: "*"
 
 encrypt:
-  key: "45D81EC1EF61DF9AD8D3E5BB397F9"
-
+  key: ${{ secrets.ENCRYPT_KEY }}
 server:
   port: 8071
