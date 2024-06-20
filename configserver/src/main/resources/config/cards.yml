@@ -2,7 +2,7 @@ build:
   version: "3.0"
 
 cards:
-  message: "Cards service International Bank related Development API"
+  message: "Cards service International Bank related Development Webhooks API"
   contactDetails:
     name: "Tuan Bin - Developer"
     email: "tuanbin007@gmail.com"
