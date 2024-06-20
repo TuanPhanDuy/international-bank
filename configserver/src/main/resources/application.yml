@@ -8,8 +8,6 @@ spring:
       server:
         git:
           uri: "https://github.com/TuanPhanDuy/international-bank.git"
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
           default-label: main
           timeout: 5
           clone-on-start: true
